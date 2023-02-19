@@ -1,0 +1,19 @@
+CREATE TABLE FoodTrackerTable (
+    day INTEGER NOT NULL,
+    month INTEGER NOT NULL,
+    year INTEGER NOT NULL,
+    breakfast TEXT,
+    lunch TEXT ,
+    dinner TEXT,
+    snack TEXT,
+    PRIMARY KEY (day, month, year)
+);
+
+
+getFoodByDate:
+SELECT *
+FROM FoodTrackerTable WHERE day = :day AND month = :month AND year = :year;
+
+setFood:
+INSERT OR REPLACE INTO FoodTrackerTable
+VALUES ?;

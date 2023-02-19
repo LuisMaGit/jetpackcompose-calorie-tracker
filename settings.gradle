@@ -1,0 +1,29 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "Calorie Tracker"
+include ':app'
+include ':router'
+include ':core'
+include ':core_ui'
+include ':core_test'
+include ':onboarding'
+include ':onboarding:onboarding_ui'
+include ':startup'
+include ':startup:startup_ui'
+include ':tracker'
+include ':tracker:tracker_ui'
+include ':tracker:tracker_domain'
+include ':tracker:tracker_di'
+include ':core_data'
