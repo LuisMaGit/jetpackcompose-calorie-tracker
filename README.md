@@ -1,4 +1,4 @@
-# Calorie Tracker
+## Calorie Tracker
 Simple Calorie Tracker Android App. 
 
 ## Description
@@ -15,7 +15,28 @@ The application is a minimum viable product, which allows the user to track the 
 </p>
 
 ## Architecture
-
 The app is build as a standard multi-modular clean architecture project:
+
+<img src="https://user-images.githubusercontent.com/70621340/220617652-46752115-3622-4968-a39f-f982e73ef3b9.png" width="800" height="600"/>
+
+## Stack
+* Jetpack Compose/Compose View Model/Compose Navigation (ui)
+* Hilt-Dagger (di)
+* Ktor (network)
+* SqlDelight (db)
+* DataStore (preferences)
+* Kotlin serialization (json manipulation)
+* JUnit 4 (test)
+* Mockk (test)
+* Turbine (test)
+
+## Unit tests
+Run the configuration in the picture bellow to run all the units tests in the app (full covarage in the View Models of Tracker feature)
+
+<img src="https://user-images.githubusercontent.com/70621340/220621874-a82210cd-5e6a-4866-b0bc-0b685c552797.png" width="300" height="200"/>
+<img src="https://user-images.githubusercontent.com/70621340/220623732-30423b3d-cc97-460a-ba18-67c5d08dc276.png" width="500" height="400"/>
+
+
+
 
 
