@@ -1,2 +1,2 @@
-# jetpackcompose-calorie-tracker
-Simple Calorie Tracker Android App
+# Calorie Tracker
+Simple Calorie Tracker Jetpackcompose Android App
