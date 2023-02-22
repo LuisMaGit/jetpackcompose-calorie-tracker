@@ -14,4 +14,8 @@ The application is a minimum viable product, which allows the user to track the 
 <img src="https://user-images.githubusercontent.com/70621340/220593822-c3fe8748-e176-4a95-ae3d-dba74445786b.png"  width="170" height="340">
 </p>
 
+## Architecture
+
+The app is build as a standard multi-modular clean architecture project:
+
 
